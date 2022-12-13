@@ -1,0 +1,101 @@
+/***** Search *****/
+.searchform {
+  background: none;
+  float: left;
+  margin: 5px 0 0;
+  max-width: 50%;
+  margin-left: 25%;
+  padding: 0;
+  width: 100%;
+}
+.searchform .btntext {
+  border: medium none;
+  float: left;
+  height: 24px;
+  padding: 0 0 0 1%;
+  width: 80%;
+  min-height: 20px;
+}
+.searchform #searchsubmit {
+  
+}
+.full-header .searchform {
+  display: none;
+}
+
+/*===================================*/
+/*Search Page - Search Notfound*/
+/*====================================*/
+
+body.search .content-box-1{
+  text-align: center;
+}
+body.search .content-box-1 #content div.post{
+  margin-bottom: 20px;
+}
+body.search .content-box-1 h1.page-title{
+  float: left;
+  width: 100%;
+  margin: 7px 0;
+  font-size: 30px;
+}
+body.search .content-box-1 h1.page-title span{
+  color: red;
+  font-weight: 600;
+}
+
+.content-box-1 .title-search{
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.content-box-1 .title-search a{
+  color: #666;
+}
+.content-box-1 .title-search a:hover{
+  color: #000;
+}
+.content-box-1 .content-search{
+  float: left;
+  width: 100%;
+}
+.content-box-1 .content-search p{
+
+}
+
+.content-box-1 .content-search #searchform div{
+
+} 
+.content-box-1 .content-search #searchform input[type=text]{
+  float: left;
+  width: calc(100% - 80px);
+  border: 1px solid #e5e5e5;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+}
+.content-box-1 .content-search #searchform input[type=submit]{
+  float: left;
+  width: 80px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border: 1px solid #dc8068;
+  height: 34px;
+  background-color: #dc8068;
+  color: #fff;
+}
+.content-box-1 .content-search #searchform input[type=submit]:hover{
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px){
+
+}

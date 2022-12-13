@@ -1,0 +1,804 @@
+/*      Sidebar   DATLV    */
+.sticky {
+    position: fixed;
+    top: 0;
+}
+#sibar-left .block-left {
+    float: left;
+    width: 100%;
+}
+
+#sibar-left {
+    margin-right: 2%;
+}
+
+.sidebar {
+    float: left;
+    width: 21%;
+    position: relative;
+}
+
+#sibar-left.sidebar-right {
+    float: right;
+    margin: 0;
+}
+
+#main-frame .widget {
+    margin-top: 10px;
+}
+
+.block-sidebar {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sidebar-title h3 {
+    -webkit-touch-callout: none!important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    background-color: var(--default);
+    color: #fff;
+    font-family: UtmCookies;
+    font-size: 21px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidebar-title i {
+    float: right;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-content {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #2b2b2b;
+    background: rgba(255,255,255,.8);
+}
+.filter-wapper .sidebar-content {
+    padding: 10px;
+}
+
+.sidebar-content p {
+    font-size: 14px;
+}
+
+.sidebar-content ul > li {
+    padding: 0 10px;
+    float: left;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px dotted #e4e4e4;
+    display: inline-block;
+}
+
+.sidebar-content li a:hover {
+    color: #f97242;
+}
+
+.block-left ul li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    border: none;
+}
+
+.ads-sidebar-content {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ads-sidebar-content a {
+    display: block;
+}
+
+.ads-sidebar-content a img {
+    width: 100%;
+}
+
+/*Product Category*/
+
+.block-content li a {
+    color: #4c4c4c;
+    font-weight: normal;
+}
+
+.block-content li a:hover {
+    color: #42a2f3;
+}
+
+.product-categories li:not(:last-child),
+.menu-sidebar li:not(:last-child) {
+    border-bottom: 1px solid #ececec;
+}
+
+.product-categories li a, .menu-sidebar li a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 12.5px 10px;
+    font-family: UtmAvo, Tahoma;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+.product-categories li:hover > a, .menu-sidebar li:hover > a {
+    background: #E17DAB;
+    color: #fff;
+}
+
+.product-categories li,
+.product-category li {
+    position: relative;
+}
+
+.product-categories .children,
+.block-content .menu-sidebar .children {
+    display: none;
+    padding-left: 15px;
+}
+
+.product-categories .children li,
+.block-content .menu-sidebar .children li {
+    border-bottom: none;
+}
+
+.product-categories li a:before,
+.product-category ul li a:before {
+    display: none;
+}
+
+.product-categories li span.show_btn,
+.product-category ul li span.show_btn {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-sidebar li ul.children {
+    display: none;
+    padding-left: 0px;
+}
+.menu-sidebar li ul.children li a {
+    padding-left: 20px;
+}
+.menu-sidebar li ul.children li {
+    border-bottom: 0px;
+}
+
+
+.blog-sidebar {
+    padding-left: 20px;
+}
+
+.blog-sidebar a {
+    color: #4c4c4c;
+    font-weight: normal;
+    margin-bottom: 10px;
+    display: list-item;
+}
+
+.blog-sidebar a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+
+
+
+
+
+.sidebar-s {}
+
+.sidebar-s form {
+    position: relative;
+}
+
+.sidebar-s input {
+    padding: 12px 20px;
+    float: left;
+    height: 33px;
+    color: #a3a2a2;
+    background-color: #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar-s input:focus {
+    border-bottom: 1px solid #f97242;
+}
+
+.sidebar-s button {
+    position: absolute;
+    top: 0;
+    width: 38px;
+    border: none;
+    height: 33px;
+    right: 0;
+    outline: 0;
+    background-color: #f97242;
+    color: #fff;
+}
+
+.newsletter .wpcf7-form {
+    position: relative;
+}
+
+.newsletter .wpcf7-form input {
+    padding: 12px 20px;
+    float: left;
+    height: 33px;
+    color: #a3a2a2;
+    background-color: #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.newsletter .wpcf7-form input:focus {
+    border-bottom: 1px solid #f97242;
+}
+
+.newsletter .wpcf7-form .wpcf7-submit {
+    position: absolute;
+    top: 0;
+    width: 38px;
+    border: none;
+    height: 33px;
+    right: 0;
+    outline: 0;
+    background-color: #f97242;
+    color: #fff;
+    padding: 0;
+}
+
+.newsletter .wpcf7-form .ajax-loader {
+    /*visibility: visible;*/
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+/*      Filter box        */
+
+.filter-wapper .heading-title h3 {}
+
+.filter-wapper .heading-title h3:after {
+    display: none;
+}
+
+.filter-wapper .block-left {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.filter-wapper .heading_box {
+    padding: 5px 0px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #787878;
+    background-color: #ffffff;
+}
+/* Cass name is header */
+
+#sibar-left>.block-left>.yith-wcan,
+#sibar-left>.block-left.widget_price_filter>form {
+    padding: 10px;
+}
+
+.block-left.widget_price_filter form {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+/*Lọc giá*/
+
+.widget.widget_price_filter .price_slider_amount .button {
+    font: normal bold 13px / 15px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: none;
+    padding: 8px 15px;
+    font-size: 14px !important;
+    font-weight: normal;
+    background-color: #f97242;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.widget.widget_price_filter .price_slider_amount .button:hover {}
+
+
+.widget.widget_price_filter form {}
+
+.woocommerce .widget.widget_price_filter .price_slider_wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.woocommerce .widget.widget_price_filter .price_slider_wrapper .price_slider {
+    float: left;
+    width: 95%;
+    background: #d7d7d7;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    height: 6px;
+}
+
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    border: 0;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    background: #f97242;
+    top: 0;
+    height: 100%;
+}
+
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    outline: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 10%;
+    background: #f97242;
+    border: none;
+}
+
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle:last-child {}
+
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -2px 0 0 -2px;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    content: "";
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.woocommerce .block-left.widget_layered_nav ul {
+    padding: 0 15px;
+}
+/*Giỏ hàng*/
+
+body .sidebar .woocommerce ul.cart_list,
+body .sidebar .woocommerce ul.product_list_widget {}
+
+body .woocommerce .widget_shopping_cart .cart_list li a.remove,
+body .woocommerce.widget_shopping_cart .cart_list li a.remove {
+    color: #fff !important;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+    margin-bottom: 0;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    left: auto;
+    top: 20px;
+    right: 20px;
+}
+
+body .woocommerce ul.cart_list li img,
+body .woocommerce ul.product_list_widget li img {
+    height: auto;
+    box-shadow: none;
+    margin-right: 10px;
+    width: 75px;
+    float: left;
+    padding: 0;
+}
+
+body .sidebar .woocommerce .widget_shopping_cart .cart_list li.mini_cart_item,
+body .sidebar .woocommerce.widget_shopping_cart .cart_list li.mini_cart_item {
+    padding: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+body .sidebar .woocommerce .widget_shopping_cart .cart_list li.mini_cart_item .price_quan,
+body .sidebar .woocommerce.widget_shopping_cart .cart_list li.mini_cart_item .price_quan {
+    display: inline-block;
+}
+
+body .sidebar .woocommerce .widget_shopping_cart .cart_list li.mini_cart_item .price_quan span,
+body .sidebar .woocommerce.widget_shopping_cart .cart_list li.mini_cart_item .price_quan span {
+    display: inline-block;
+    float: none;
+    max-width: initial;
+}
+
+body .sidebar .woocommerce.widget_shopping_cart .total {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    color: #222;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    margin-top: -1px;
+}
+
+body .sidebar .woocommerce.widget_shopping_cart .buttons a {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #42a2f3;
+    border-radius: 3px;
+    color: #fff;
+}
+
+body .sidebar .woocommerce.widget_shopping_cart .buttons a:hover {}
+
+body .sidebar .woocommerce.widget_shopping_cart .buttons a.checkout {
+    float: right;
+}
+
+/*#Lọc giá*/
+
+.block-left.yith-woo-ajax-navigation:last-child {
+    border: none;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li {
+    font-size: 13px;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li.chosen a {
+    background: url("../images/65nXyBBTyuhJ.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li a {
+    background: url(../images/0wa7mxlKIVTv.png) no-repeat scroll 0 0px rgba(0, 0, 0, 0) !important;
+    padding: 0px !important;
+    line-height: 26px;
+    padding-left: 20px !important;
+    font-size: 13px;
+    color: #444;
+    position: relative;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li a:hover {
+    background: url("../images/65nXyBBTyuhJ.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li a:before,
+.yith-woo-ajax-navigation .yith-wcan-list li a:after {
+    display: none;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list li .count {
+    color: #333333 !important;
+    float: left !important;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12px !important;
+    line-height: 25px;
+    display: none;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-color li {
+    float: left !important;
+    width: auto;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list span.more {
+    float: left;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-list span.more label {
+    cursor: pointer;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-reset-navigation.button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    box-shadow: none;
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0;
+    text-shadow: none;
+}
+
+.yith-woo-ajax-navigation .yith-wcan-reset-navigation.button:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    text-decoration: underline;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li {
+    margin-bottom: 20px;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li a.wd-image {
+    float: left;
+    width: 70px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li .wd-body {
+    float: left;
+    width: calc(100% - 80px);
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li .wd-title {
+    margin-bottom: 10px;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li .wd-title a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li .wd-title a:hover {
+    color: #42a2f3;
+}
+
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li .amount,
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li ins {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px;
+    color: #000;
+}
+
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li del .amount {
+    font-size: 14px;
+    color: #787878;
+    font-weight: 400;
+}
+
+.best_selling .product_hover {
+    display: none;
+}
+
+.best_selling .product_inner {
+    float: left;
+    width: 70px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.sidebar-content.best_selling ul>li {
+    border: none;
+    margin-bottom: 15px !important;
+}
+
+.best_selling .product_meta {
+    float: left;
+    width: calc(100% - 80px);
+}
+
+.best_selling .product_box .product_meta h2 {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.best_selling .product_box .product_meta {
+    text-align: left;
+}
+
+.sidebar .onsale {
+    display: none;
+}
+
+/*Recent post */
+
+.recent-post .items {
+    padding: 10px 0px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.recent-post .items:last-child {
+    border-bottom: 0px;
+}
+
+.recent-post .items a {
+    padding: 0px;
+    line-height: 18px;
+    font-size: 14px;
+    text-transform: none;
+    color: #787878;
+    margin-bottom: 8px;
+}
+
+.recent-post .items a:hover {
+    color: #f97242;
+}
+
+.recent-post .items span {
+    font-size: 12px;
+    display: block;
+    color: #999999;
+}
+
+.heading-title i {
+    display: none;
+}
+
+
+.sidebar-content .listBlogTags {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sidebar-content .listBlogTags>li {
+    float: left;
+    width: auto;
+    border: none;
+    margin: 0px 10px 10px 0px;
+}
+
+.sidebar-content .listBlogTags>li>a {
+    display: block;
+    padding: 5px 8px;
+    color: #777;
+    background-color: #eee;
+}
+
+.sidebar-content .listBlogTags>li>a:hover {
+    color: #fff;
+    background-color: #f97242;
+}
+
+
+
+
+.lnk a {
+    float: left;
+    color: #fff;
+    background-color: #f97242;
+    width: 100%;
+    text-align: center;
+    padding: 6px 30px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.products.products-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.products.products-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+.block-left ul ul li:last-child {
+  border-bottom: none;
+}
+
+.block-left ul li {
+  position: relative;
+}
+
+.bt-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    height: 47px;
+    width: 47px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bt-toggle .add {
+  display: block;
+}
+.bt-toggle .remove {
+  display: none;
+}
+.o-toggle .add {
+  display: none;
+}
+.o-toggle .remove {
+  display: block;
+}
+
+/**** Responsive settings ******/
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 990px) {
+    
+
+    .sidebar-content {}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 939px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {}
+
+@media only screen and (max-width:991px) {
+    #sibar-left {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .sidebar {
+        width: 100%;
+        order: 2;
+    }
+    #sibar-left,
+    #sibar-left.sidebar-right {
+        width: 100%;
+        margin: 0px;
+        display: none;
+    }
+
+
+    .banner-sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 599px) {}
+
+@media only screen and (min-width:320px) and (max-width: 479px) {}

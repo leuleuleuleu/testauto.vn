@@ -1,0 +1,180 @@
+/*      Contact       */
+
+#contact-map,
+#contact-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.ct_box {
+    float: left;
+    width: calc(50% - 15px);
+}
+
+.ct_box h3 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    float: right;
+}
+
+.contact-form .form-input {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form .wpcf7-form-control-wrap {
+    float: left;
+    width: 100%;
+}
+
+.contact-form .form-input label {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.contact-form .form-input input {
+    font-family: Raleway, sans-serif;
+    width: 100%;
+    padding: 14px 10px;
+    float: left;
+    position: relative;
+    outline: 0;
+    height: 33px;
+    font-size: 14px;
+    color: #777;
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+    border: 1px solid #f1f1f1;
+}
+
+.contact-form .form-input textarea {
+    width: 100%;
+    font-size: 14px;
+    color: #a3a2a2;
+    padding: 14px 10px;
+    background-color: #fff;
+    position: relative;
+    outline: 0;
+    font-family: Raleway, sans-serif;
+    float: left;
+    border: 1px solid #f1f1f1;
+}
+
+.contact-form .form-input input:focus,
+.contact-form .form-input textarea:focus {
+    border-bottom: 1px solid #f97242;
+}
+
+.contact-form .wpcf7-submit {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+    background: #eee;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    -moz-transition: all .45s ease-in-out;
+    -o-transition: all .45s ease-in-out;
+    -ms-transition: all .45s ease-in-out;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact-form .wpcf7-submit:hover {
+    background: #f97242;
+    color: #fff;
+}
+
+.contact-form .btn-submit {
+    float: left;
+    width: 100%;
+}
+
+.contact-address.wrapper {
+    justify-content: space-between;
+}
+
+.contact-content {
+    float: left;
+    width: calc(33.33333% - 20px);
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid #f1f1f1;
+    -webkit-transition: all .45s ease-in-out;
+    -moz-transition: all .45s ease-in-out;
+    -o-transition: all .45s ease-in-out;
+    -ms-transition: all .45s ease-in-out;
+    transition: all .45s ease-in-out;
+}
+
+.contact-content:hover {
+    background-color: #f97242;
+}
+
+.contact-content:hover p,
+.contact-content:hover h4,
+.contact-content:hover i {
+    color: #fff;
+}
+
+.contact-content i {
+    font-size: 40px;
+    margin: 0 auto 25px;
+    color: #f97242;
+}
+
+.contact-content h4 {
+    color: #000;
+}
+
+.contact-content p {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 990px) {}
+
+@media only screen and (max-width: 768px) {
+    .ct_box{
+        width: 100%;
+    }
+    .contact-map{
+        margin-bottom: 40px;
+    }
+    .contact-content{
+        width: 100%;
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 480px) {}
